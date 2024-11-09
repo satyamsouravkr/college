@@ -1,0 +1,120 @@
+body{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.toparea{
+    background-color: #B35550;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+.toparea a{
+    color: white;
+    text-decoration:none ;
+}
+.logoarea{
+    background-color: #F2C38B;
+    padding: 50px 0;
+    text-align: center;
+}
+.logoarea img{
+    width: 100px;
+}
+.logoarea h1{
+    color: #74353F;
+    text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+}
+.nav-link{
+    /* color: red !important; */
+    /* background-color: li !important; */
+}
+.Principle{
+    text-align: center;
+    padding: 30px;
+}
+.Principle p{
+    text-align: justify;
+}
+.coursearea{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('lib.jpg');
+    padding: 200px 0;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}     
+.box{
+    width: 100%;
+    margin:20px 0;
+    padding: 30px 40px;
+    border: solid 1px black;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.box img{
+    width: 100%;
+    margin: 20px 0;
+    transition: all 2s;
+    border-radius: 50%;
+}
+
+.box:hover img{
+    transform: rotate(360deg);
+}
+.box a{
+    text-decoration: none;
+    color: #754027;
+}
+.milestone{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+.milestone a{
+    text-decoration: none;
+    color: #754027;
+}
+.alumni{
+    padding: 50px 0 150px 0;
+    background-position: bottom;
+    background-image: url(https://www.gpadp.org.in/alumnibg.c44739f2d7dcb5d0.jpg);
+}
+.footer{
+    background: #2f2f2f url(micro_carbon.cfa0758c9310a463.png);
+    padding: 60px;
+    color: #f2c38b;
+}
+.footer a{
+    color: #d37f57;
+    text-decoration: none;
+}
+.footer h5{
+    color: white;
+}
+.footer p{
+    color: #f2c38b;
+}
+.box1 ul{
+    color:#d37f57;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.box1 ul li{
+    margin: 5px 0;
+}
+.hrline{
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, transparent, #DBDBDB, transparent);
+    float: left;
+    margin-top: 30px;
+}
+.last{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
